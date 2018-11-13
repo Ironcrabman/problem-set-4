@@ -101,7 +101,7 @@ function inches() {
   // WRITE YOUR EXERCISE 5 CODE HERE
 
   var miles=Math.floor(inches/63360 - );
-  var milesextra=();
+  var milesextra=(inches % 63360);
   var yards= milesextra/36
   ////////////////////////// DO NOT MODIFY
   check("inches", input); // DO NOT MODIFY
