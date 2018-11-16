@@ -166,12 +166,10 @@ function fluidOunces() {
   fluidounces= (fluidounces % 128)
   let quarts= (fluidounces/32)
   fluidounces= (fluidounces % 32)
-  let pint =
-  /////Fix this stuff before moving on
+  let pint = (fluidounces / 16)
+  fluidounces= (fluidounces % 16)
   let cups= (fluidounces / 16)
   fluidounces= (fluidounces % 16)
-  let cups= (fluidounces / 8)
-  fluidounces = (fluidounces % 8)
   let div = document.getElementById("output7")
   div.innerHTML=(`Gallons: ${gallons}</br>Quarts: ${quarts}</br>pints: ${centimeters}`)
   /////////////////////////////// DO NOT MODIFY
