@@ -162,16 +162,16 @@ function fluidOunces() {
   /////////////////////////// DO NOT MODIFY
 
   // WRITE YOUR EXERCISE 7 CODE HERE
-  let gallons= Math.floor(fluidounces/128)
-  fluidounces= (fluidounces % 128)
-  let quarts= (fluidounces/32)
-  fluidounces= (fluidounces % 32)
-  let pint = (fluidounces / 16)
-  fluidounces= (fluidounces % 16)
-  let cups= (fluidounces / 16)
-  fluidounces= (fluidounces % 16)
+  let gallons= Math.floor(fluidOunces/128)
+  fluidOunces= (fluidOunces % 128)
+  let quarts= (fluidOunces/32)
+  fluidOunces= (fluidOunces % 32)
+  let pints = (fluidOunces / 16)
+  fluidOunces= (fluidOunces % 16)
+  let cups= (fluidOunces / 16)
+  fluidOunces= (fluidOunces % 16)
   let div = document.getElementById("output7")
-  div.innerHTML=(`Gallons: ${gallons}</br>Quarts: ${quarts}</br>pints: ${centimeters}`)
+  div.innerHTML=(`Gallons: ${gallons}</br>Quarts: ${quarts}</br>pints: ${pints}</br>cups: ${cups}</br>Fluid Ounces: ${fluidOunces}`)
   /////////////////////////////// DO NOT MODIFY
   check("fluidOunces", input); // DO NOT MODIFY
   /////////////////////////////// DO NOT MODIFY
